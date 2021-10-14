@@ -23,7 +23,7 @@ public class TicTacToe {
 			System.out.println("Enter your placement 1-9");
 			int playerPos = scan.nextInt();
 			
-			while(playerPositions.contains(playerPos)||cpuPositions.contains(playerPositions)){
+			while(playerPositions.contains(playerPos)||cpuPositions.contains(cpuPositions)){
 				System.out.println("Position taken! Enter a correct position");
 				playerPos = scan.nextInt();
 			}
